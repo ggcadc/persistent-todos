@@ -1,0 +1,9 @@
+{
+    "extends": "airbnb",
+    "rules": {
+        "jsx-a11y/href-no-hash": 0,
+        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "no-console": 0
+    }
+}
